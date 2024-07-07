@@ -887,7 +887,7 @@ section,
 .portfolio .portfolio-item {
   position: relative;
   overflow: hidden;
-  width: 250px;
+  width: 220px;
 }
 
 @media (max-width: 575px) {
@@ -914,7 +914,7 @@ section,
   z-index: 3;
   transition: all ease-in-out 0.5s;
   background: color-mix(in srgb, var(--background-color), transparent 10%);
-  padding: 10px;
+  padding: 10px 2px 7px 12px;
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
@@ -1031,6 +1031,10 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
+.ins-link {
+  margin-top: 20px;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
@@ -1055,7 +1059,7 @@ section,
 }
 
 .portfolio-details .portfolio-info {
-  background-color: var(--surface-color);
+  background-color: #2b2b2b;
   padding: 30px;
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
 }
