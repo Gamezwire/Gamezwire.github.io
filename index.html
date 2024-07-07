@@ -1,150 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gamezwire Studios</title>
-    <meta name="description" content="Main page of the Gamezwire website.">
-    <link rel="icon" href="gw_logo.webp" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  </head>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Roboto";
-      background-color: #1E1E1E;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
 
-    main {
-      flex: 1;
-    }
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Gamezwire Studios</title>
+  <meta content="Official website of Gamezwire Studios" name="description">
+  <meta content="Gamezwire, Studios, game, app, development" name="keywords">
 
-    h1 {
-      font-size: 35px;
-      color: white;
-      margin-left: 25px;
-    }
+  <link href="assets/img/gw_logo.webp" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    h2 {
-      font-size: 25px;
-      color: white;
-      margin-left: 25px;
-    }
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-    a {
-      text-decoration: none;
-      font-size: 20px;
-      color: #B0B0B0;
-    }
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
-    div {
-      margin-bottom: 20px;
-      margin-left: 25px;
-    }
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
 
-    img {
-      vertical-align: middle;
-      width: 40px;
-      height: 40px;
-      margin-right: 10px;
-    }
+<body class="index-page">
 
-    .bottom-bar {
-      margin: 0;
-      display: flex;
-      justify-content: right;
-      align-items: center;
-      padding: 10px 0;
-      background-color: #202020;
-      color: #fff;
-      border-top: solid 2px #B0B0B0;
-    }
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-    .bottom-bar a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 10px;
-      display: flex;
-      align-items: center;
-      color: #B0B0B0;
-    }
-
-    #gamezwire_branding {
-        width: 150px;
-        height: 40px;
-        position: absolute;
-        left: -5px;
-    }
-
-    .bottom-bar img:not(#gamezwire_branding) {
-      width: 40px;
-      height: 40px;
-      margin-left: 5px;
-    }
-
-    @media (min-width: 481px) {
-      h1 {
-        font-size: 50px;
-      }
-
-      h2 {
-        font-size: 35px;
-      }
-
-      a {
-        font-size: 25px;
-      }
-
-      img {
-        width: 50px;
-        height: 50px;
-      }
-
-      .bottom-bar {
-        justify-content: center;
-      }
-
-      .bottom-bar a {
-        margin: 0 20px;
-      }
-
-      #gamezwire_branding {
-        width: 200px;
-        height: 50px;
-        position: absolute;
-        left: -10px;
-      }
-    }
-  </style>
-  <body>
-    <main>
-      <h1>Gamezwire Studios</h1>
-      <h2>Privacy Policy</h2>
-      <div>
-        <a href="stopwatch_app.html">
-          <img src="stopwatch_logo.webp" alt="Logo of Simple Stopwatch for WearOS">
-          Simple Stopwatch for WearOS
-        </a>
-      </div>
-      <div>
-        <a href="tunetap.html">
-          <img src="tunetap_logo.webp" alt="Logo of TuneTap">
-          TuneTap
-        </a>
-      </div>
-    </main>
-    <div class="bottom-bar">
-      <img src="gw_branding.webp" id="gamezwire_branding">
-      <a href="mailto:gamezwire@gmail.com">Email</a>
-      <a href="https://www.instagram.com/gamezwire/">
-        <img src="instagram_logo.webp" alt="Instagram logo">
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <img src="assets/img/gw_logo.webp" alt="">
+        <h1 class="sitename">Gamezwire Studios</h1>
+        <span>.</span>
       </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#portfolio">Released</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
     </div>
-  </body>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/bg.webp" alt="" data-aos="fade-in">
+
+      <div class="container">
+
+        <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-xl-6 col-lg-8">
+            <h2>Software Development Studio<span>.</span></h2>
+            <p>Indie Game, App, and Web Development Studio</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Apps and Games</h2>
+        <p>Released</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-apps">Apps</li>
+            <li data-filter=".filter-games">Games</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-apps">
+              <a href="stopwatch-app.html">
+              <img src="assets/img/stopwatch_logo.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Simple Stopwatch for WearOS</h4>
+                <p>Stopwatch app for WearOS devices</p>
+              </div>
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-games">
+              <a href="tunetap.html">
+              <img src="assets/img/tunetap_logo.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>TuneTap</h4>
+                <p>Rhythm game for Android devices</p>
+              </div>
+              </a>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Contact Us</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+
+            <a href="mailto:gamezwire@gmail.com"><div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>gamezwire@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+            </a>
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="https://formspree.io/f/xzzpboaq" method="POST" class="php-email-form"  data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Gamezwire Studios</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p><strong>Email:</strong> <span>gamezwire@gmail.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href="https://www.instagram.com/gamezwire/"><i class="bi bi-instagram"></i></a>
+              <a href="https://sk.linkedin.com/company/gamezwire?trk=similar-pages"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Simple Stopwatch for WearOS</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> TuneTap</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our games and apps!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Gamezwire Studios</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
