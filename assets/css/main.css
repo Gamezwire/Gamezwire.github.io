@@ -1097,6 +1097,12 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
+@media (max-width: 575px) {
+  .portfolio-info {
+    display: block;
+  }
+  }
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
