@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html amp lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
   <title>Gamezwire Studios</title>
   <meta content="Official website of Gamezwire Studios" name="description">
   <meta content="Gamezwire, Studios, game, app, development" name="keywords">
 
   <link href="assets/img/gw_logo.webp" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="canonical" href="gamezwire.github.io/index.html">
 
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -18,7 +20,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <link href="assets/css/main.css" rel="stylesheet">
-</head>
+  </head>
 
 <body class="index-page">
 
@@ -34,7 +36,7 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="#hero" aria-label="Go To Home Section" class="active">Home<br></a></li>
-          <li><a aria-label="Go To Software Section" href="#portfolio">Software</a></li>
+          <li><a aria-label="Go To Software Section" href="#portfolio-released">Software</a></li>
           <li><a aria-label="Go To Contact Section" href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -64,11 +66,11 @@
     </section><!-- /Hero Section -->
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    <section id="portfolio-released" class="portfolio section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Apps and Games</h2>
+        <h2>Apps and Websites</h2>
         <p>Released</p>
       </div><!-- End Section Title -->
 
@@ -80,6 +82,7 @@
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-apps">Apps</li>
             <li data-filter=".filter-games">Games</li>
+            <li data-filter=".filter-websites">Websites</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="100">
@@ -94,6 +97,26 @@
               </a>
             </div><!-- End Portfolio Item -->
 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
+              <a aria-label="Go To eko.bilicka.sk" href="eko.bilicka.sk">
+              <img src="assets/img/ekob-logo.webp" class="img-fluid" alt="EkoBilíčka Logo">
+              <div class="portfolio-info">
+                <h4>EkoBilíčka</h4>
+                <p>Website for an eco-focused student organisation</p>
+              </div>
+              </a>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-websites">
+              <a aria-label="Go To racing.bilicka.sk" href="racing.bilicka.sk">
+              <img src="assets/img/racingteam-logo.webp" class="img-fluid" alt="Gymbilba Racing Team Logo">
+              <div class="portfolio-info">
+                <h4>Gymbilba Racing Team</h4>
+                <p>Website for a student motorsport team</p>
+              </div>
+              </a>
+            </div><!-- End Portfolio Item -->
+
           </div><!-- End Portfolio Container -->
 
         </div>
@@ -102,7 +125,7 @@
 
     </section><!-- /Portfolio Section -->
 
-    <section id="portfolio2" class="portfolio section">
+    <section id="portfolio-coming" class="portfolio section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
